@@ -7,4 +7,8 @@ import com.blogspot.mowael.molib.application.MoApplication;
  */
 
 public class Application extends MoApplication {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
 }
