@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333453</color>
+    <color name="colorPrimaryDark">#27293E</color>
+    <color name="colorAccent">#ef9da3</color>
+    <color name="colorScreen">#fffffb</color>
+
+    <color name="athleteItemColor">#e0efe7da</color>
+    <color name="briefColor">#f3000000</color>
+</resources>
