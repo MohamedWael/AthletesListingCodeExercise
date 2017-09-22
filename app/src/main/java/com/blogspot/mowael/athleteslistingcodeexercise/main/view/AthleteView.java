@@ -4,8 +4,10 @@ import android.content.Context;
 import android.os.Build;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -67,6 +69,7 @@ public class AthleteView extends LinearLayout {
     public void setAthleteItem(Athlete athleteItem) {
         tvName.setText(athleteItem.getName());
         tvBrief.setText(athleteItem.getBrief());
+        ivAthleteImage.setVisibility(TextUtils.isEmpty(athleteItem.getImage()) ? View.GONE : View.VISIBLE);
         AthleteUIUtil.downloadImage(getContext(), athleteItem.getImage(), ivAthleteImage);
     }
 }
