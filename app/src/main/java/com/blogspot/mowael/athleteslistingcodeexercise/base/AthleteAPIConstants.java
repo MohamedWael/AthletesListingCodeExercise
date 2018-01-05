@@ -5,5 +5,5 @@ package com.blogspot.mowael.athleteslistingcodeexercise.base;
  */
 
 public class AthleteAPIConstants {
-    public static String BASE_URL = "https://gist.githubusercontent.com/Bassem-Samy/f227855df4d197d3737c304e9377c4d4/raw/ece2a30b16a77ee58091886bf6d3445946e10a23/athletes.josn";
+    public static String BASE_URL = "https://gist.githubusercontent.com/MohamedWael/1406437f14e9a769a3a572a78906388f/raw/5be50e67c96c5ed1da9fe6344d2dd7befef0ba25/athletes.josn";
 }
